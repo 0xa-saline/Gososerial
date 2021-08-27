@@ -31,3 +31,15 @@ func GetCC6(cmd string) []byte {
 func GetCC7(cmd string) []byte {
 	return gadget.GetCommonsCollections7(cmd)
 }
+
+func GetAllNames() []string {
+	return []string{
+		gadget.CC1,
+		gadget.CC2,
+		gadget.CC3,
+		gadget.CC4,
+		gadget.CC5,
+		gadget.CC6,
+		gadget.CC7,
+	}
+}
