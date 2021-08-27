@@ -50,6 +50,8 @@ func main()  {
 
 参考了xray中p师傅的代码
 
-[xray](https://xray.cool/)
+**ysoserial**: https://github.com/frohoff/ysoserial
 
-[phith0n](https://github.com/phith0n)
+**xray**: https://github.com/chaitin/xray
+
+**phith0n**: https://github.com/phith0n
