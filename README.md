@@ -36,19 +36,20 @@ go get github.com/EmYiQing/Gososerial
 ```go
 package main
 
-import (
-	gososerial "github.com/EmYiQing/Gososerial"
-	"net/http"
-)
+import gososerial "github.com/EmYiQing/Gososerial"
 
 func main()  {
 	payload := gososerial.GetCC1("calc.exe")
-	....
+	......
 	sendPayload(payload)
 	......
 }
 ```
 
 ## About
+
+参考了xray中p师傅的代码
+
+[xray](https://xray.cool/)
 
 [phith0n](https://github.com/phith0n)
